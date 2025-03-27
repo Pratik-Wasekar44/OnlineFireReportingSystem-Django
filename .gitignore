@@ -1,0 +1,42 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+
+# Django-related
+db.sqlite3
+*.log
+media/
+staticfiles/
+static/
+
+# Environment Variables & Secrets
+.env
+config/settings_local.py
+
+# Migrations (optional, if you regenerate them)
+*/migrations/*.pyc
+*/migrations/*.py, !*/migrations/__init__.py
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js (if applicable)
+node_modules/
+
+# Pytest & Coverage
+.coverage
+htmlcov/
+pytest_cache/
+
